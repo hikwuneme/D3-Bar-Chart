@@ -1,2 +1,3 @@
 # D3-Bar-Chart
 Interactive Bar Chart Showing Student's Attendance using d3js
+The chart shows how student's attendance changes over the course of the semester. It was plotted using the v6 of D3js library. I created a function that creates and updates the chart based on the present or absent data. I also created a mouseover event that changes the opacity and a tooltip. I have added radio buttons for toggling between present and absent. This chart shows us that as expected, attendance is higher at the beginning of the semester and then starts to dip as the semester progresses. There is an inverse relationship between the week of the semester and the number of attendances recorded as present.
