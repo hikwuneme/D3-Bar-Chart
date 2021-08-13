@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name = 'Bar Chart'>
+        <script src= "https://d3js.org/d3.v6.min.js"></script>
+        <link rel = "stylesheet" href = "bar.css">
+        
+    </head>
+    <body>
+        <div class = "titleheader">
+            <h3 class = "title"> Attendance by Time of Semester</h3>
+        </div>
+        <input type = "radio" id = "radio1" name = "group" onclick ="chart('Present')" checked/>Present<br>
+        <input type = "radio" id = "radio2" name = "group" onclick ="chart('Absent')"/>Absent<br> 
+        <script src= "bar.js"></script>
+    </body>
+</html>
